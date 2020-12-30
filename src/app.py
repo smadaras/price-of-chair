@@ -18,6 +18,7 @@ def init_db():
 def home():
     return render_template('home.jinja2')
 
+
 from src.models.users.views import user_blueprint
 from src.models.stores.views import store_blueprint
 from src.models.alerts.views import alert_blueprint
